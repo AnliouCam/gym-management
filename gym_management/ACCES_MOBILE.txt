@@ -1,0 +1,69 @@
+═══════════════════════════════════════════════════════
+   INSTRUCTIONS POUR ACCÉDER À L'APPLICATION
+        DEPUIS VOTRE TÉLÉPHONE
+═══════════════════════════════════════════════════════
+
+📱 VOTRE LIEN D'ACCÈS :
+──────────────────────────────────────────────────────
+http://10.10.5.239/gym_management/gym_management/index.php
+──────────────────────────────────────────────────────
+
+⚠️  IMPORTANT - ÉTAPES À SUIVRE :
+
+1️⃣  CONFIGURER WAMP (À FAIRE UNE SEULE FOIS)
+
+   a) Cliquez sur l'icône WAMP (en bas à droite)
+
+   b) Allez dans : Apache → httpd.conf
+
+   c) Cherchez la ligne (CTRL+F) :
+      Require local
+
+   d) Remplacez-la par :
+      Require all granted
+
+   e) Sauvegardez le fichier (CTRL+S)
+
+   f) Redémarrez WAMP :
+      Clic droit sur l'icône WAMP → Restart All Services
+
+
+2️⃣  VÉRIFIER LA CONNEXION WIFI
+
+   - Votre PC et votre téléphone DOIVENT être sur le même réseau WiFi
+   - Vérifiez que vous êtes connecté au même WiFi sur les deux appareils
+
+
+3️⃣  ACCÉDER DEPUIS VOTRE TÉLÉPHONE
+
+   a) Ouvrez le navigateur sur votre téléphone (Chrome, Safari, etc.)
+
+   b) Tapez l'URL ci-dessus dans la barre d'adresse :
+      http://10.10.5.239/gym_management/gym_management/index.php
+
+   c) L'application devrait s'afficher !
+
+
+🔧 SI ÇA NE FONCTIONNE PAS :
+
+1. Vérifiez que WAMP est bien démarré (icône verte)
+
+2. Vérifiez que votre pare-feu Windows autorise les connexions :
+   - Panneau de configuration → Système et sécurité → Pare-feu Windows
+   - Autoriser une application → Apache HTTP Server
+
+3. Si votre adresse IP a changé, exécutez dans le terminal :
+   ipconfig
+   Puis cherchez "Adresse IPv4" pour la carte WiFi
+
+
+💡 ASTUCE :
+Vous pouvez créer un raccourci sur l'écran d'accueil de votre téléphone :
+- Sur Chrome : Menu (⋮) → Ajouter à l'écran d'accueil
+- Sur Safari : Partager → Sur l'écran d'accueil
+
+
+✅ CONNEXION :
+Utilisez les mêmes identifiants que sur votre PC !
+
+═══════════════════════════════════════════════════════
